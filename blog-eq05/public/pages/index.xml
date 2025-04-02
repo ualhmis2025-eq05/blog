@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Blog-eq05</title>
+    <link>http://localhost:1313/pages/</link>
+    <description>Recent content in Pages on Blog-eq05</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Aug 2021 13:44:28 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021 08 30 a Sample Post</title>
+      <link>http://localhost:1313/pages/indexyeye/</link>
+      <pubDate>Mon, 30 Aug 2021 13:44:28 +0900</pubDate>
+      <guid>http://localhost:1313/pages/indexyeye/</guid>
+      <description>&lt;!DOCTYPE html&gt;&#xD;&#xA;&lt;html lang=&#34;es&#34;&gt;&#xD;&#xA;&lt;head&gt;&#xD;&#xA;    &lt;meta charset=&#34;UTF-8&#34;&gt;&#xD;&#xA;    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;&#xD;&#xA;    &lt;title&gt;Blog de Tecnología&lt;/title&gt;&#xD;&#xA;    &lt;link rel=&#34;stylesheet&#34; href=&#34;styles.css&#34;&gt;&#xD;&#xA;&lt;/head&gt;&#xD;&#xA;&lt;body&gt;&#xD;&#xA;&#xD;&#xA;    &lt;!-- Encabezado --&gt;&#xD;&#xA;    &lt;header&gt;&#xD;&#xA;        &lt;h1&gt;Bienvenidos al Blog de Tecnología&lt;/h1&gt;&#xD;&#xA;        &lt;p&gt;Exploramos las últimas tendencias y novedades&lt;/p&gt;&#xD;&#xA;    &lt;/header&gt;&#xD;&#xA;&#xD;&#xA;    &lt;!-- Contenido Principal --&gt;&#xD;&#xA;    &lt;main&gt;&#xD;&#xA;        &lt;!-- Sección de Introducción --&gt;&#xD;&#xA;        &lt;section class=&#34;about&#34;&gt;&#xD;&#xA;            &lt;h2&gt;Sobre Nosotros&lt;/h2&gt;&#xD;&#xA;            &lt;p&gt;Somos un equipo apasionado por la tecnología. Cada uno de nuestros miembros comparte su conocimiento sobre temas innovadores. ¡Explora sus perfiles y descubre contenido interesante!&lt;/p&gt;&#xD;&#xA;        &lt;/section&gt;&#xD;&#xA;&#xD;&#xA;        &lt;!-- Sección de Miembros --&gt;&#xD;&#xA;        &lt;section class=&#34;members&#34;&gt;&#xD;&#xA;            &lt;h2&gt;Nuestros Autores&lt;/h2&gt;&#xD;&#xA;&#xD;&#xA;            &lt;div class=&#34;grid&#34;&gt;&#xD;&#xA;                &lt;!-- Miembro 1 --&gt;&#xD;&#xA;                &lt;a href=&#34;miembro1.html&#34; class=&#34;card&#34;&gt;&#xD;&#xA;                    &lt;img src=&#34;https://via.placeholder.com/150&#34; alt=&#34;Miembro 1&#34;&gt;&#xD;&#xA;                    &lt;h3&gt;Nombre del Miembro 1&lt;/h3&gt;&#xD;&#xA;                    &lt;p&gt;Especialista en IA&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

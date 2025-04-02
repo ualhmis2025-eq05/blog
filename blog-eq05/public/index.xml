@@ -6,14 +6,35 @@
     <description>Recent content on Blog-eq05</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Aug 2021 13:44:28 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 02 Apr 2025 12:27:44 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2021 08 30 a Sample Post</title>
-      <link>http://localhost:1313/posts/indexyeye/</link>
-      <pubDate>Mon, 30 Aug 2021 13:44:28 +0900</pubDate>
-      <guid>http://localhost:1313/posts/indexyeye/</guid>
-      <description>&lt;!DOCTYPE html&gt;&#xD;&#xA;&lt;html lang=&#34;es&#34;&gt;&#xD;&#xA;&lt;head&gt;&#xD;&#xA;    &lt;meta charset=&#34;UTF-8&#34;&gt;&#xD;&#xA;    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;&#xD;&#xA;    &lt;title&gt;Blog de Tecnología&lt;/title&gt;&#xD;&#xA;    &lt;link rel=&#34;stylesheet&#34; href=&#34;styles.css&#34;&gt;&#xD;&#xA;&lt;/head&gt;&#xD;&#xA;&lt;body&gt;&#xD;&#xA;&#xD;&#xA;    &lt;!-- Encabezado --&gt;&#xD;&#xA;    &lt;header&gt;&#xD;&#xA;        &lt;h1&gt;Bienvenidos al Blog de Tecnología&lt;/h1&gt;&#xD;&#xA;        &lt;p&gt;Exploramos las últimas tendencias y novedades&lt;/p&gt;&#xD;&#xA;    &lt;/header&gt;&#xD;&#xA;&#xD;&#xA;    &lt;!-- Contenido Principal --&gt;&#xD;&#xA;    &lt;main&gt;&#xD;&#xA;        &lt;!-- Sección de Introducción --&gt;&#xD;&#xA;        &lt;section class=&#34;about&#34;&gt;&#xD;&#xA;            &lt;h2&gt;Sobre Nosotros&lt;/h2&gt;&#xD;&#xA;            &lt;p&gt;Somos un equipo apasionado por la tecnología. Cada uno de nuestros miembros comparte su conocimiento sobre temas innovadores. ¡Explora sus perfiles y descubre contenido interesante!&lt;/p&gt;&#xD;&#xA;        &lt;/section&gt;&#xD;&#xA;&#xD;&#xA;        &lt;!-- Sección de Miembros --&gt;&#xD;&#xA;        &lt;section class=&#34;members&#34;&gt;&#xD;&#xA;            &lt;h2&gt;Nuestros Autores&lt;/h2&gt;&#xD;&#xA;&#xD;&#xA;            &lt;div class=&#34;grid&#34;&gt;&#xD;&#xA;                &lt;!-- Miembro 1 --&gt;&#xD;&#xA;                &lt;a href=&#34;miembro1.html&#34; class=&#34;card&#34;&gt;&#xD;&#xA;                    &lt;img src=&#34;https://via.placeholder.com/150&#34; alt=&#34;Miembro 1&#34;&gt;&#xD;&#xA;                    &lt;h3&gt;Nombre del Miembro 1&lt;/h3&gt;&#xD;&#xA;                    &lt;p&gt;Especialista en IA&lt;/p&gt;</description>
+      <title>Bienvenidos al Blog de Tutoriales del equipoO5!</title>
+      <link>http://localhost:1313/pages/</link>
+      <pubDate>Wed, 02 Apr 2025 12:27:44 +0200</pubDate>
+      <guid>http://localhost:1313/pages/</guid>
+      <description>&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&#34;es&#34;&gt;&#xA;&lt;head&gt;&#xA;    &lt;meta charset=&#34;UTF-8&#34;&gt;&#xA;    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;&#xA;    &lt;title&gt;Blog de Tecnología&lt;/title&gt;&#xA;    &lt;link rel=&#34;stylesheet&#34; href=&#34;styles.css&#34;&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA;&#xA;    &lt;!-- Encabezado --&gt;&#xA;    &lt;header&gt;&#xA;        &lt;h1&gt;Bienvenidos al Blog de Tecnología&lt;/h1&gt;&#xA;        &lt;p&gt;Exploramos las últimas tendencias y novedades&lt;/p&gt;&#xA;    &lt;/header&gt;&#xA;&#xA;    &lt;!-- Contenido Principal --&gt;&#xA;    &lt;main&gt;&#xA;        &lt;!-- Sección de Introducción --&gt;&#xA;        &lt;section class=&#34;about&#34;&gt;&#xA;            &lt;h2&gt;Sobre Nosotros&lt;/h2&gt;&#xA;            &lt;p&gt;Somos un equipo apasionado por la tecnología. Cada uno de nuestros miembros comparte su conocimiento sobre temas innovadores. ¡Explora sus perfiles y descubre contenido interesante!&lt;/p&gt;&#xA;        &lt;/section&gt;&#xA;&#xA;        &lt;!-- Sección de Miembros --&gt;&#xA;        &lt;section class=&#34;members&#34;&gt;&#xA;            &lt;h2&gt;Nuestros Autores&lt;/h2&gt;&#xA;&#xA;            &lt;div class=&#34;grid&#34;&gt;&#xA;                &lt;!-- Miembro 1 --&gt;&#xA;                &lt;a href=&#34;miembro1.html&#34; class=&#34;card&#34;&gt;&#xA;                    &lt;img src=&#34;https://via.placeholder.com/150&#34; alt=&#34;Miembro 1&#34;&gt;&#xA;                    &lt;h3&gt;Nombre del Miembro 1&lt;/h3&gt;&#xA;                    &lt;p&gt;Especialista en IA&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tutorial3</title>
+      <link>http://localhost:1313/tutos/tutorial3/</link>
+      <pubDate>Wed, 02 Apr 2025 12:03:38 +0200</pubDate>
+      <guid>http://localhost:1313/tutos/tutorial3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Angular</title>
+      <link>http://localhost:1313/tutos/tutorial2/</link>
+      <pubDate>Wed, 02 Apr 2025 12:03:35 +0200</pubDate>
+      <guid>http://localhost:1313/tutos/tutorial2/</guid>
+      <description>&lt;h1 id=&#34;introducción-a-angular-para-desarrolladores&#34;&gt;Introducción a Angular para Desarrolladores&lt;/h1&gt;&#xA;&lt;h2 id=&#34;qué-es-angular&#34;&gt;¿Qué es Angular?&lt;/h2&gt;&#xA;&lt;p&gt;Angular es un framework de desarrollo web basado en TypeScript, creado y mantenido por Google. Se utiliza para construir aplicaciones web dinámicas y de una sola página (SPA).&lt;/p&gt;&#xA;&lt;h2 id=&#34;instalación-de-angular&#34;&gt;Instalación de Angular&lt;/h2&gt;&#xA;&lt;p&gt;Para instalar Angular, necesitas tener Node.js instalado en tu sistema. Puedes descargarlo desde &lt;a href=&#34;https://nodejs.org/&#34;&gt;nodejs.org&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Una vez instalado Node.js, instala Angular CLI ejecutando el siguiente comando:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install -g @angular/cli&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Para verificar que la instalación fue exitosa:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Podman</title>
+      <link>http://localhost:1313/tutos/podman/</link>
+      <pubDate>Wed, 02 Apr 2025 12:03:27 +0200</pubDate>
+      <guid>http://localhost:1313/tutos/podman/</guid>
+      <description>&lt;h1 id=&#34;guía-de-práctica-contenerización-con-podman-y-podman-desktop-en-windows&#34;&gt;Guía de Práctica: Contenerización con Podman y Podman Desktop en Windows&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introducción-a-la-contenerización-y-podman&#34;&gt;Introducción a la contenerización y Podman&lt;/h2&gt;&#xA;&lt;p&gt;La &lt;strong&gt;contenerización&lt;/strong&gt; es una tecnología que permite empaquetar una aplicación junto con todas sus dependencias en una unidad ligera llamada &lt;strong&gt;contenedor&lt;/strong&gt;. Los contenedores aíslan la aplicación del sistema host, asegurando que se ejecute de forma consistente en cualquier entorno (desarrollo, pruebas, producción), ya que incluyen todo lo necesario (bibliotecas, configuraciones, etc.). A diferencia de las máquinas virtuales, los contenedores comparten el kernel del sistema operativo host y son mucho más livianos en términos de recursos y tiempo de arranque.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

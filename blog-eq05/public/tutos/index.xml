@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutos on Blog-eq05</title>
+    <link>http://localhost:1313/tutos/</link>
+    <description>Recent content in Tutos on Blog-eq05</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Apr 2025 12:03:38 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tutos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tutorial3</title>
+      <link>http://localhost:1313/tutos/tutorial3/</link>
+      <pubDate>Wed, 02 Apr 2025 12:03:38 +0200</pubDate>
+      <guid>http://localhost:1313/tutos/tutorial3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorial2</title>
+      <link>http://localhost:1313/tutos/tutorial2/</link>
+      <pubDate>Wed, 02 Apr 2025 12:03:35 +0200</pubDate>
+      <guid>http://localhost:1313/tutos/tutorial2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Podman</title>
+      <link>http://localhost:1313/tutos/podman/</link>
+      <pubDate>Wed, 02 Apr 2025 12:03:27 +0200</pubDate>
+      <guid>http://localhost:1313/tutos/podman/</guid>
+      <description>&lt;h1 id=&#34;guía-de-práctica-contenerización-con-podman-y-podman-desktop-en-windows&#34;&gt;Guía de Práctica: Contenerización con Podman y Podman Desktop en Windows&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introducción-a-la-contenerización-y-podman&#34;&gt;Introducción a la contenerización y Podman&lt;/h2&gt;&#xA;&lt;p&gt;La &lt;strong&gt;contenerización&lt;/strong&gt; es una tecnología que permite empaquetar una aplicación junto con todas sus dependencias en una unidad ligera llamada &lt;strong&gt;contenedor&lt;/strong&gt;. Los contenedores aíslan la aplicación del sistema host, asegurando que se ejecute de forma consistente en cualquier entorno (desarrollo, pruebas, producción), ya que incluyen todo lo necesario (bibliotecas, configuraciones, etc.). A diferencia de las máquinas virtuales, los contenedores comparten el kernel del sistema operativo host y son mucho más livianos en términos de recursos y tiempo de arranque.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

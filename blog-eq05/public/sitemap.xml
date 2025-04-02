@@ -2,13 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/indexyeye/</loc>
-  </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-04-02T12:27:44+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pages/</loc>
+    <lastmod>2025-04-02T12:27:44+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutos/tutorial3/</loc>
+    <lastmod>2025-04-02T12:03:38+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutos/</loc>
+    <lastmod>2025-04-02T12:03:38+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutos/tutorial2/</loc>
+    <lastmod>2025-04-02T12:03:35+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutos/podman/</loc>
+    <lastmod>2025-04-02T12:03:27+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pages2/</loc>
+    <lastmod>2021-08-30T13:44:28+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
