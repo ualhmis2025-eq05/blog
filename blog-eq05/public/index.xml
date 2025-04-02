@@ -9,7 +9,7 @@
     <lastBuildDate>Wed, 02 Apr 2025 12:27:44 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pages</title>
+      <title>Bienvenidos al Blog de Tutoriales del equipoO5!</title>
       <link>http://localhost:1313/pages/</link>
       <pubDate>Wed, 02 Apr 2025 12:27:44 +0200</pubDate>
       <guid>http://localhost:1313/pages/</guid>
@@ -23,11 +23,11 @@
       <description></description>
     </item>
     <item>
-      <title>Tutorial2</title>
+      <title>Angular</title>
       <link>http://localhost:1313/tutos/tutorial2/</link>
       <pubDate>Wed, 02 Apr 2025 12:03:35 +0200</pubDate>
       <guid>http://localhost:1313/tutos/tutorial2/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;introducción-a-angular-para-desarrolladores&#34;&gt;Introducción a Angular para Desarrolladores&lt;/h1&gt;&#xA;&lt;h2 id=&#34;qué-es-angular&#34;&gt;¿Qué es Angular?&lt;/h2&gt;&#xA;&lt;p&gt;Angular es un framework de desarrollo web basado en TypeScript, creado y mantenido por Google. Se utiliza para construir aplicaciones web dinámicas y de una sola página (SPA).&lt;/p&gt;&#xA;&lt;h2 id=&#34;instalación-de-angular&#34;&gt;Instalación de Angular&lt;/h2&gt;&#xA;&lt;p&gt;Para instalar Angular, necesitas tener Node.js instalado en tu sistema. Puedes descargarlo desde &lt;a href=&#34;https://nodejs.org/&#34;&gt;nodejs.org&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Una vez instalado Node.js, instala Angular CLI ejecutando el siguiente comando:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install -g @angular/cli&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Para verificar que la instalación fue exitosa:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Podman</title>
