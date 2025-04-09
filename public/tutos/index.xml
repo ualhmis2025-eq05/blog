@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutos on Blog-eq05</title>
+    <link>http://localhost:1313/tutos/</link>
+    <description>Recent content in Tutos on Blog-eq05</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Apr 2025 12:03:38 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tutos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vaadin</title>
+      <link>http://localhost:1313/tutos/tutorial3/</link>
+      <pubDate>Wed, 02 Apr 2025 12:03:38 +0200</pubDate>
+      <guid>http://localhost:1313/tutos/tutorial3/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;-tutorial-básico-de-vaadin&#34;&gt;🧩 Tutorial Básico de Vaadin&lt;/h1&gt;&#xA;&lt;p&gt;Vaadin es un &lt;strong&gt;framework Java&lt;/strong&gt; para construir &lt;strong&gt;interfaces de usuario web modernas&lt;/strong&gt; y reactivas sin necesidad de escribir JavaScript o HTML directamente. Te permite usar &lt;strong&gt;Java puro&lt;/strong&gt; para diseñar la interfaz y gestionar la lógica del lado del servidor.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-requisitos-previos&#34;&gt;🔧 Requisitos Previos&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Java JDK 17 o superior&lt;/li&gt;&#xA;&lt;li&gt;Maven o Gradle&lt;/li&gt;&#xA;&lt;li&gt;IDE (IntelliJ, Eclipse o VS Code)&lt;/li&gt;&#xA;&lt;li&gt;Navegador web moderno&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-crear-un-proyecto-vaadin-con-maven&#34;&gt;🚀 Crear un Proyecto Vaadin con Maven&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-generar-el-proyecto&#34;&gt;1. Generar el proyecto&lt;/h3&gt;&#xA;&lt;p&gt;Puedes usar el &lt;a href=&#34;https://start.vaadin.com&#34;&gt;starter oficial de Vaadin&lt;/a&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Angular</title>
+      <link>http://localhost:1313/tutos/tutorial2/</link>
+      <pubDate>Wed, 02 Apr 2025 12:03:35 +0200</pubDate>
+      <guid>http://localhost:1313/tutos/tutorial2/</guid>
+      <description>&lt;h1 id=&#34;introducción-a-angular-para-desarrolladores&#34;&gt;Introducción a Angular para Desarrolladores&lt;/h1&gt;&#xA;&lt;h2 id=&#34;qué-es-angular&#34;&gt;¿Qué es Angular?&lt;/h2&gt;&#xA;&lt;p&gt;Angular es un framework de desarrollo web basado en TypeScript, creado y mantenido por Google. Se utiliza para construir aplicaciones web dinámicas y de una sola página (SPA).&lt;/p&gt;&#xA;&lt;h2 id=&#34;instalación-de-angular&#34;&gt;Instalación de Angular&lt;/h2&gt;&#xA;&lt;p&gt;Para instalar Angular, necesitas tener Node.js instalado en tu sistema. Puedes descargarlo desde &lt;a href=&#34;https://nodejs.org/&#34;&gt;nodejs.org&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Una vez instalado Node.js, instala Angular CLI ejecutando el siguiente comando:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install -g @angular/cli&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Para verificar que la instalación fue exitosa:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Podman</title>
+      <link>http://localhost:1313/tutos/podman/</link>
+      <pubDate>Wed, 02 Apr 2025 12:03:27 +0200</pubDate>
+      <guid>http://localhost:1313/tutos/podman/</guid>
+      <description>&lt;h1 id=&#34;guía-de-práctica-contenerización-con-podman-y-podman-desktop-en-windows&#34;&gt;Guía de Práctica: Contenerización con Podman y Podman Desktop en Windows&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introducción-a-la-contenerización-y-podman&#34;&gt;Introducción a la contenerización y Podman&lt;/h2&gt;&#xA;&lt;p&gt;La &lt;strong&gt;contenerización&lt;/strong&gt; es una tecnología que permite empaquetar una aplicación junto con todas sus dependencias en una unidad ligera llamada &lt;strong&gt;contenedor&lt;/strong&gt;. Los contenedores aíslan la aplicación del sistema host, asegurando que se ejecute de forma consistente en cualquier entorno (desarrollo, pruebas, producción), ya que incluyen todo lo necesario (bibliotecas, configuraciones, etc.). A diferencia de las máquinas virtuales, los contenedores comparten el kernel del sistema operativo host y son mucho más livianos en términos de recursos y tiempo de arranque.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

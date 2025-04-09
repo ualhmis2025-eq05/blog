@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog-eq05</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Blog-eq05</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Apr 2025 14:10:08 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Formulario de Contacto</title>
+      <link>http://localhost:1313/contacto/</link>
+      <pubDate>Wed, 02 Apr 2025 14:10:08 +0200</pubDate>
+      <guid>http://localhost:1313/contacto/</guid>
+      <description>&lt;div class=&#34;contact-form&#34;&gt;&#xA;  &lt;form action=&#34;https://formspree.io/f/xeoarezv&#34; method=&#34;POST&#34;&gt;&#xA;    &lt;label&gt;Nombre:&lt;/label&gt;&lt;br&gt;&#xA;    &lt;input type=&#34;text&#34; name=&#34;nombre&#34; required&gt;&lt;br&gt;&#xA;&#xA;    &lt;label&gt;Email:&lt;/label&gt;&lt;br&gt;&#xA;    &lt;input type=&#34;email&#34; name=&#34;email&#34; required&gt;&lt;br&gt;&#xA;&#xA;    &lt;label&gt;Asunto:&lt;/label&gt;&lt;br&gt;&#xA;    &lt;input type=&#34;text&#34; name=&#34;asunto&#34; required&gt;&lt;br&gt;&#xA;&#xA;    &lt;label&gt;Mensaje:&lt;/label&gt;&lt;br&gt;&#xA;    &lt;textarea name=&#34;mensaje&#34; rows=&#34;5&#34; required&gt;&lt;/textarea&gt;&lt;br&gt;&#xA;&#xA;    &lt;button type=&#34;submit&#34;&gt;Enviar&lt;/button&gt;&#xA;  &lt;/form&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Blog de Tutoriales</title>
+      <link>http://localhost:1313/pages/</link>
+      <pubDate>Wed, 02 Apr 2025 12:27:44 +0200</pubDate>
+      <guid>http://localhost:1313/pages/</guid>
+      <description>&lt;!DOCTYPE html&gt;&#xA;&lt;html lang=&#34;es&#34;&gt;&#xA;&lt;head&gt;&#xA;    &lt;meta charset=&#34;UTF-8&#34;&gt;&#xA;    &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34;&gt;&#xA;    &lt;title&gt;Blog de Tecnología&lt;/title&gt;&#xA;    &lt;link rel=&#34;stylesheet&#34; href=&#34;styles.css&#34;&gt;&#xA;&lt;/head&gt;&#xA;&lt;body&gt;&#xA;&#xA;    &lt;!-- Encabezado --&gt;&#xA;    &lt;header&gt;&#xA;        &lt;h1&gt;Bienvenidos al Blog de Tutoriales&lt;/h1&gt;&#xA;        &lt;p&gt;Exploramos las últimas tendencias y novedades&lt;/p&gt;&#xA;    &lt;/header&gt;&#xA;&#xA;    &lt;!-- Contenido Principal --&gt;&#xA;    &lt;main&gt;&#xA;        &lt;!-- Sección de Introducción --&gt;&#xA;        &lt;section class=&#34;about&#34;&gt;&#xA;            &lt;h2&gt;Sobre Nosotros&lt;/h2&gt;&#xA;            &lt;p&gt;Somos un equipo apasionado por la tecnología. Cada uno de nuestros miembros comparte su conocimiento sobre temas innovadores. ¡Explora sus perfiles y descubre contenido interesante!&lt;/p&gt;&#xA;        &lt;/section&gt;&#xA;&#xA;        &lt;!-- Sección de Miembros --&gt;&#xA;        &lt;section class=&#34;members&#34;&gt;&#xA;            &lt;h2&gt;Nuestros Autores&lt;/h2&gt;&#xA;&#xA;            &lt;div class=&#34;grid&#34;&gt;&#xA;                &lt;!-- Miembro 1 --&gt;&#xA;                &lt;a href=&#34;https://acr360.github.io&#34; class=&#34;card&#34; target=&#34;_blank&#34;&gt;&#xA;                    &lt;h3&gt;Antonio Cano Romero&lt;/h3&gt;&#xA;                &lt;/a&gt;&#xA;&#xA;                &lt;!-- Miembro 2 --&gt;&#xA;                &lt;a href=&#34;https://dcc0230.github.io&#34; class=&#34;card&#34; target=&#34;_blank&#34;&gt;&#xA;                    &lt;h3&gt;Diego Castañeda Cortés&lt;/h3&gt;&#xA;                &lt;/a&gt;&#xA;&#xA;                &lt;!-- Miembro 3 --&gt;&#xA;                &lt;a href=&#34;https://aer234.github.io&#34; class=&#34;card&#34; target=&#34;_blank&#34;&gt;&#xA;                    &lt;h3&gt;Abdelaziz Errabhi Rabtoui&lt;/h3&gt;&#xA;                &lt;/a&gt;&#xA; &#xA;            &lt;/div&gt;&#xA;        &lt;/section&gt;&#xA;    &lt;/main&gt;&#xA;&#xA;    &lt;!-- Pie de Página --&gt;&#xA;    &lt;footer&gt;&#xA;        &lt;p&gt;&amp;copy; 2025 Blog de Tecnología. Todos los derechos reservados.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Vaadin</title>
+      <link>http://localhost:1313/tutos/tutorial3/</link>
+      <pubDate>Wed, 02 Apr 2025 12:03:38 +0200</pubDate>
+      <guid>http://localhost:1313/tutos/tutorial3/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;-tutorial-básico-de-vaadin&#34;&gt;🧩 Tutorial Básico de Vaadin&lt;/h1&gt;&#xA;&lt;p&gt;Vaadin es un &lt;strong&gt;framework Java&lt;/strong&gt; para construir &lt;strong&gt;interfaces de usuario web modernas&lt;/strong&gt; y reactivas sin necesidad de escribir JavaScript o HTML directamente. Te permite usar &lt;strong&gt;Java puro&lt;/strong&gt; para diseñar la interfaz y gestionar la lógica del lado del servidor.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-requisitos-previos&#34;&gt;🔧 Requisitos Previos&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Java JDK 17 o superior&lt;/li&gt;&#xA;&lt;li&gt;Maven o Gradle&lt;/li&gt;&#xA;&lt;li&gt;IDE (IntelliJ, Eclipse o VS Code)&lt;/li&gt;&#xA;&lt;li&gt;Navegador web moderno&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-crear-un-proyecto-vaadin-con-maven&#34;&gt;🚀 Crear un Proyecto Vaadin con Maven&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-generar-el-proyecto&#34;&gt;1. Generar el proyecto&lt;/h3&gt;&#xA;&lt;p&gt;Puedes usar el &lt;a href=&#34;https://start.vaadin.com&#34;&gt;starter oficial de Vaadin&lt;/a&gt;:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Angular</title>
+      <link>http://localhost:1313/tutos/tutorial2/</link>
+      <pubDate>Wed, 02 Apr 2025 12:03:35 +0200</pubDate>
+      <guid>http://localhost:1313/tutos/tutorial2/</guid>
+      <description>&lt;h1 id=&#34;introducción-a-angular-para-desarrolladores&#34;&gt;Introducción a Angular para Desarrolladores&lt;/h1&gt;&#xA;&lt;h2 id=&#34;qué-es-angular&#34;&gt;¿Qué es Angular?&lt;/h2&gt;&#xA;&lt;p&gt;Angular es un framework de desarrollo web basado en TypeScript, creado y mantenido por Google. Se utiliza para construir aplicaciones web dinámicas y de una sola página (SPA).&lt;/p&gt;&#xA;&lt;h2 id=&#34;instalación-de-angular&#34;&gt;Instalación de Angular&lt;/h2&gt;&#xA;&lt;p&gt;Para instalar Angular, necesitas tener Node.js instalado en tu sistema. Puedes descargarlo desde &lt;a href=&#34;https://nodejs.org/&#34;&gt;nodejs.org&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Una vez instalado Node.js, instala Angular CLI ejecutando el siguiente comando:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm install -g @angular/cli&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Para verificar que la instalación fue exitosa:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Podman</title>
+      <link>http://localhost:1313/tutos/podman/</link>
+      <pubDate>Wed, 02 Apr 2025 12:03:27 +0200</pubDate>
+      <guid>http://localhost:1313/tutos/podman/</guid>
+      <description>&lt;h1 id=&#34;guía-de-práctica-contenerización-con-podman-y-podman-desktop-en-windows&#34;&gt;Guía de Práctica: Contenerización con Podman y Podman Desktop en Windows&lt;/h1&gt;&#xA;&lt;h2 id=&#34;introducción-a-la-contenerización-y-podman&#34;&gt;Introducción a la contenerización y Podman&lt;/h2&gt;&#xA;&lt;p&gt;La &lt;strong&gt;contenerización&lt;/strong&gt; es una tecnología que permite empaquetar una aplicación junto con todas sus dependencias en una unidad ligera llamada &lt;strong&gt;contenedor&lt;/strong&gt;. Los contenedores aíslan la aplicación del sistema host, asegurando que se ejecute de forma consistente en cualquier entorno (desarrollo, pruebas, producción), ya que incluyen todo lo necesario (bibliotecas, configuraciones, etc.). A diferencia de las máquinas virtuales, los contenedores comparten el kernel del sistema operativo host y son mucho más livianos en términos de recursos y tiempo de arranque.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

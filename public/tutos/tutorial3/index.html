@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.145.0">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Vaadin &middot; Blog-eq05</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="http://localhost:1313/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="http://localhost:1313/"><h1>Blog-eq05</h1></a>
+      <p class="lead">
+       Bienvenidos a nuestro blog para la asignatura HMIS! 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="http://localhost:1313/">Home</a> </li>
+        
+      </ul>
+    </nav>
+
+    <p>&copy; 2025. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Vaadin</h1>
+  <time datetime=2025-04-02T12:03:38&#43;0200 class="post-date">Wed, Apr 2, 2025</time>
+  <hr>
+<h1 id="-tutorial-básico-de-vaadin">🧩 Tutorial Básico de Vaadin</h1>
+<p>Vaadin es un <strong>framework Java</strong> para construir <strong>interfaces de usuario web modernas</strong> y reactivas sin necesidad de escribir JavaScript o HTML directamente. Te permite usar <strong>Java puro</strong> para diseñar la interfaz y gestionar la lógica del lado del servidor.</p>
+<hr>
+<h2 id="-requisitos-previos">🔧 Requisitos Previos</h2>
+<ul>
+<li>Java JDK 17 o superior</li>
+<li>Maven o Gradle</li>
+<li>IDE (IntelliJ, Eclipse o VS Code)</li>
+<li>Navegador web moderno</li>
+</ul>
+<hr>
+<h2 id="-crear-un-proyecto-vaadin-con-maven">🚀 Crear un Proyecto Vaadin con Maven</h2>
+<h3 id="1-generar-el-proyecto">1. Generar el proyecto</h3>
+<p>Puedes usar el <a href="https://start.vaadin.com">starter oficial de Vaadin</a>:</p>
+<p>O ejecutar en terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mvn -npr archetype:generate <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  -DarchetypeGroupId<span style="color:#f92672">=</span>com.vaadin <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  -DarchetypeArtifactId<span style="color:#f92672">=</span>vaadin-archetype-application <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  -DarchetypeVersion<span style="color:#f92672">=</span>24.2.0 <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  -DgroupId<span style="color:#f92672">=</span>com.ejemplo <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  -DartifactId<span style="color:#f92672">=</span>miapp-vaadin <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  -Dversion<span style="color:#f92672">=</span>1.0-SNAPSHOT <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  -Dpackaging<span style="color:#f92672">=</span>jar <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>  -DinteractiveMode<span style="color:#f92672">=</span>false
+</span></span></code></pre></div><blockquote>
+<p>Cambia <code>groupId</code> y <code>artifactId</code> según tu proyecto.</p></blockquote>
+<hr>
+<h3 id="2-ejecutar-la-aplicación">2. Ejecutar la aplicación</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd miapp-vaadin
+</span></span><span style="display:flex;"><span>mvn clean install
+</span></span><span style="display:flex;"><span>mvn spring-boot:run
+</span></span></code></pre></div><p>Accede en tu navegador a:<br>
+📍 <code>http://localhost:8080</code></p>
+<hr>
+<h2 id="-crear-una-vista-básica">🖥️ Crear una Vista Básica</h2>
+<p>Vaadin usa clases Java para definir las vistas. Por ejemplo:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@Route</span>(<span style="color:#e6db74">&#34;&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MainView</span> <span style="color:#66d9ef">extends</span> VerticalLayout {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">MainView</span>() {
+</span></span><span style="display:flex;"><span>        add(<span style="color:#66d9ef">new</span> H1(<span style="color:#e6db74">&#34;Hola desde Vaadin&#34;</span>));
+</span></span><span style="display:flex;"><span>        Button boton <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Button(<span style="color:#e6db74">&#34;Haz clic&#34;</span>);
+</span></span><span style="display:flex;"><span>        boton.<span style="color:#a6e22e">addClickListener</span>(e <span style="color:#f92672">-&gt;</span> boton.<span style="color:#a6e22e">setText</span>(<span style="color:#e6db74">&#34;¡Hecho!&#34;</span>));
+</span></span><span style="display:flex;"><span>        add(boton);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ul>
+<li><code>@Route(&quot;&quot;)</code> → Define la ruta raíz de la app.</li>
+<li><code>VerticalLayout</code> → Componente de diseño vertical.</li>
+<li><code>H1</code>, <code>Button</code> → Componentes de UI listos para usar.</li>
+</ul>
+<hr>
+<h2 id="-componentes-comunes">🧱 Componentes Comunes</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Componente</th>
+          <th>Descripción</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>TextField</code></td>
+          <td>Campo de texto</td>
+      </tr>
+      <tr>
+          <td><code>Button</code></td>
+          <td>Botón</td>
+      </tr>
+      <tr>
+          <td><code>Grid</code></td>
+          <td>Tabla de datos</td>
+      </tr>
+      <tr>
+          <td><code>Dialog</code></td>
+          <td>Ventana emergente (modal)</td>
+      </tr>
+      <tr>
+          <td><code>ComboBox</code></td>
+          <td>Selector desplegable</td>
+      </tr>
+      <tr>
+          <td><code>Binder</code></td>
+          <td>Validación y binding de formularios</td>
+      </tr>
+  </tbody>
+</table>
+<p>Ejemplo de formulario con campo de texto:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>TextField nombre <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> TextField(<span style="color:#e6db74">&#34;Nombre&#34;</span>);
+</span></span><span style="display:flex;"><span>Button enviar <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Button(<span style="color:#e6db74">&#34;Enviar&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>enviar.<span style="color:#a6e22e">addClickListener</span>(e <span style="color:#f92672">-&gt;</span> {
+</span></span><span style="display:flex;"><span>    Notification.<span style="color:#a6e22e">show</span>(<span style="color:#e6db74">&#34;Hola &#34;</span> <span style="color:#f92672">+</span> nombre.<span style="color:#a6e22e">getValue</span>());
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>add(nombre, enviar);
+</span></span></code></pre></div><hr>
+<h2 id="-navegación-entre-vistas">🗂️ Navegación entre Vistas</h2>
+<p>Puedes crear varias vistas con diferentes rutas:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@Route</span>(<span style="color:#e6db74">&#34;otra&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">OtraVista</span> <span style="color:#66d9ef">extends</span> VerticalLayout {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">OtraVista</span>() {
+</span></span><span style="display:flex;"><span>        add(<span style="color:#66d9ef">new</span> H2(<span style="color:#e6db74">&#34;Otra página&#34;</span>));
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Y navegar desde otra vista:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Button ir <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Button(<span style="color:#e6db74">&#34;Ir a otra vista&#34;</span>, 
+</span></span><span style="display:flex;"><span>    e <span style="color:#f92672">-&gt;</span> getUI().<span style="color:#a6e22e">ifPresent</span>(ui <span style="color:#f92672">-&gt;</span> ui.<span style="color:#a6e22e">navigate</span>(<span style="color:#e6db74">&#34;otra&#34;</span>)));
+</span></span><span style="display:flex;"><span>add(ir);
+</span></span></code></pre></div><hr>
+<h2 id="-estilos-y-temas">🎨 Estilos y Temas</h2>
+<p>Vaadin permite usar CSS personalizados o temas Lumo/Dark:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>Button btn <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Button(<span style="color:#e6db74">&#34;Claro&#34;</span>);
+</span></span><span style="display:flex;"><span>btn.<span style="color:#a6e22e">addThemeVariants</span>(ButtonVariant.<span style="color:#a6e22e">LUMO_PRIMARY</span>);
+</span></span></code></pre></div><p>También puedes añadir tu propio CSS en <code>frontend/styles/styles.css</code> y usar <code>@CssImport</code>.</p>
+<hr>
+<h2 id="-integración-con-back-end">🗄️ Integración con Back-end</h2>
+<p>Vaadin se integra fácilmente con bases de datos, Spring Boot, REST APIs, etc. Por ejemplo, puedes usar un <code>@Service</code> para acceder a datos y mostrarlos en un <code>Grid</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@Autowired</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">private</span> PersonaService personaService;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Grid<span style="color:#f92672">&lt;</span>Persona<span style="color:#f92672">&gt;</span> grid <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Grid<span style="color:#f92672">&lt;&gt;</span>(Persona.<span style="color:#a6e22e">class</span>);
+</span></span><span style="display:flex;"><span>grid.<span style="color:#a6e22e">setItems</span>(personaService.<span style="color:#a6e22e">listarPersonas</span>());
+</span></span><span style="display:flex;"><span>add(grid);
+</span></span></code></pre></div><hr>
+<h2 id="-desplegar">📦 Desplegar</h2>
+<p>Al ser una app Java estándar, puedes empaquetar con:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mvn clean package
+</span></span></code></pre></div><p>Y desplegar el <code>.jar</code> en cualquier servidor compatible con Java.</p>
+<hr>
+<h2 id="-recursos-recomendados">📚 Recursos Recomendados</h2>
+<ul>
+<li>🌐 <a href="https://start.vaadin.com">Vaadin Starter</a></li>
+<li>📘 <a href="https://vaadin.com/docs">Documentación oficial</a></li>
+<li>💡 <a href="https://vaadin.com/components">Componentes Vaadin</a></li>
+<li>🧪 <a href="https://vaadin.com/labs">Vaadin Labs</a></li>
+</ul>
+<hr>
+
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>
