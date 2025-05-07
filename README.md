@@ -38,5 +38,5 @@ El blog está accesible públicamente en:
 
 ## 📝 Créditos
 
-Desarrollado por [tu nombre]  
+Desarrollado por [Diego Castañeda, Abdelaziz Errahbi, Antonio Cano]  
 Implementado con ❤️ en Azure y GitHub.
