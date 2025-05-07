@@ -1,42 +1,36 @@
-# Blog Hugo - Azure Static Web App
 
-Este es un blog generado con [Hugo](https://gohugo.io/) y desplegado automáticamente en [Azure Static Web Apps](https://learn.microsoft.com/azure/static-web-apps/overview) mediante GitHub Actions.
+# Blog-eq05 - Despliegue directo de carpeta `public/`
 
-## 🚀 Tecnologías usadas
+Este repositorio contiene un blog estático generado manualmente. En lugar de usar Hugo para generar los archivos,
+hemos dejado directamente los archivos finales en la carpeta `public/`, que es la que se desplegará a Azure Static Web Apps.
 
-- **Hugo v0.145.0 extended**
-- **GitHub Actions**
-- **Azure Static Web Apps (plan Free)**
+## Estructura del proyecto
 
-## ⚙️ Flujo de despliegue automático
+```
+📁 public/
+   ├── index.html
+   ├── css/
+   ├── contacto/
+   ├── pages/
+   ├── tutos/
+   └── ...otros archivos y carpetas estáticas
 
-Cada vez que se hace un `push` a la rama `main`:
+📁 .github/
+└── workflows/
+    └── azure-static-web-apps.yml
+```
 
-1. GitHub Actions instala Hugo.
-2. Se compila el sitio en la carpeta `public/`.
-3. El contenido se despliega automáticamente en Azure.
+## ¿Qué se ha hecho?
+- Se ha editado manualmente el `index.html` y otras páginas dentro de `public/`.
+- No se usa ningún generador como Hugo, ni ningún tema como Hyde.
+- El flujo de despliegue automático sube los contenidos de `public/` directamente.
 
-## 📁 Estructura del proyecto
+## Despliegue automático
 
-├── archetypes/
-├── content/
-├── layouts/
-├── static/
-├── themes/
-├── public/ # Aquí se generan los archivos HTML finales
-├── config.toml # Configuración principal del blog
-└── .github/workflows/
-└── azure-static-web-apps-*.yml
+Se usa Azure Static Web Apps con GitHub Actions.
 
-## 🌐 Sitio en producción
+### Archivo `.github/workflows/azure-static-web-apps.yml`:
 
-El blog está accesible públicamente en:  
-**[[https://blogeq05.azurestaticapps.net]](https://orange-sky-0bdee7910.6.azurestaticapps.net)**
-
+Este archivo ya está configurado para subir únicamente la carpeta `public/`.
 
 ---
-
-## 📝 Créditos
-
-Desarrollado por [Diego Castañeda, Abdelaziz Errahbi, Antonio Cano]  
-Implementado con ❤️ en Azure y GitHub.

@@ -1,6 +1,0 @@
-baseURL = "/"
-languageCode = 'en-us'
-title = 'Blog-eq05'
-theme = "hyde"
-[params]
-description = "Bienvenidos a nuestro blog para la asignatura HMIS!"
